@@ -75,7 +75,7 @@ def get_readable_time(seconds: int) -> str:
 INNEXIA_IMG = "https://telegra.ph/file/38f140177fba4ae8749ba.png"
 
 PM_START_TEXT = """
-`ɦɛʟʟօ` 🤗 `ɨ ǟʍ` **𝑺𝒍𝒚𝒗𝒊𝒂** `ǟ քօաɛʀʄʊʟɢʀօʊք ʍǟռǟɢɛʍɛռȶ ɮօȶ`
+`ɦɛʟʟօ` [🤗](https://telegra.ph/file/39c6808c27bf2a92854b3.png), `ɨ ǟʍ` **𝑺𝒍𝒚𝒗𝒊𝒂** `ǟ քօաɛʀʄʊʟɢʀօʊք ʍǟռǟɢɛʍɛռȶ ɮօȶ`
 `ɨ ǟʍ ʋɛʀʏ ʄǟֆȶ ǟռɖ ʍօʀɛ ɛʄʄɨƈɨɛռȶ  ɨ քʀօʋɨɖɛ ǟաֆօʍɛ ʄɛǟȶʊʀɛֆ ǟ օառɛʀ աɨʟʟ ʟօօӄ ʄօʀ ʄɨʟȶɛʀ, աǟʀռ ֆʏֆȶɛʍ, ռօȶɛ ӄɛɛքɨռɢ ֆʏֆȶɛʍ ʄʟօօɖ!`
 """
 
