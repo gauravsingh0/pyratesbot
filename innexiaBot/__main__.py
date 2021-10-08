@@ -72,10 +72,10 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-INNEXIA_IMG = "https://telegra.ph/file/38f140177fba4ae8749ba.png"
+INNEXIA_IMG = "https://telegra.ph/file/25dbdeea13c365fb95479.jpg"
 
 PM_START_TEXT = """
-`ɦɛʟʟօ` [🤗](https://telegra.ph/file/39c6808c27bf2a92854b3.png), `ɨ ǟʍ` **𝑺𝒍𝒚𝒗𝒊𝒂** `ǟ քօաɛʀʄʊʟɢʀօʊք ʍǟռǟɢɛʍɛռȶ ɮօȶ`
+`ɦɛʟʟօ` [🤗](https://telegra.ph/file/25dbdeea13c365fb95479.jpg), `ɨ ǟʍ` **𝑺𝒍𝒚𝒗𝒊𝒂** `ǟ քօաɛʀʄʊʟɢʀօʊք ʍǟռǟɢɛʍɛռȶ ɮօȶ`
 `ɨ ǟʍ ʋɛʀʏ ʄǟֆȶ ǟռɖ ʍօʀɛ ɛʄʄɨƈɨɛռȶ  ɨ քʀօʋɨɖɛ ǟաֆօʍɛ ʄɛǟȶʊʀɛֆ ǟ օառɛʀ աɨʟʟ ʟօօӄ ʄօʀ ʄɨʟȶɛʀ, աǟʀռ ֆʏֆȶɛʍ, ռօȶɛ ӄɛɛքɨռɢ ֆʏֆȶɛʍ ʄʟօօɖ!`
 """
 
