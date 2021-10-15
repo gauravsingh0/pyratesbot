@@ -85,7 +85,7 @@ buttons = [
             text="❔Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅꜱ ❔", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="🔥𝓞𝔀𝓷𝓮𝓻", url=f"https://t.me/killer_KING_XD"),
+        InlineKeyboardButton(text="🔥𝓞𝔀𝓷𝓮𝓻", url=f"https://t.me/killer_KING_X_D"),
         InlineKeyboardButton(
             text="Vᴄ Pʟᴀʏᴇʀ 🎶", url=f"https://telegra.ph/Sylvia-VC-PLAYER-10-07"
         ),
@@ -109,7 +109,7 @@ HELP_STRINGS = """
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- @killer_king_xd 's 💕"""
+ @killer_king_x_d 's 💕"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -224,7 +224,7 @@ def start(update: Update, context: CallbackContext):
             ),
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/sylvia_support")]]
+                [[InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/sylvia_support_chat")]]
             ),
         )
         
@@ -367,10 +367,10 @@ def innexia_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="Bᴜɢ'ꜱ", url="https://t.me/sylvia_support"
+                            text="Bᴜɢ'ꜱ", url="https://t.me/sylvia_support_chat"
                         ),
                         InlineKeyboardButton(
-                            text="Bᴏᴛ Lɪꜱᴛ", url="https://t.me/sylvia_support"
+                            text="Bᴏᴛ Lɪꜱᴛ", url="https://t.me/sylvia_support_chat"
                         ),
                     ],
                     [InlineKeyboardButton(text="Back", callback_data="innexia_back")],
@@ -449,12 +449,12 @@ def innexia_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Lᴏɢ'ꜱ", url="https://t.me/about_sylvia"),
-                    InlineKeyboardButton(text="Fᴇᴅ", url="https://t.me/sylvia_support"),
+                    InlineKeyboardButton(text="Lᴏɢ'ꜱ", url="https://t.me/sylvia_super_bot"),
+                    InlineKeyboardButton(text="Fᴇᴅ", url="https://t.me/sylvia_support_chat"),
                  ],
                  [
-                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/sylvia_support"),
-                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/about_sylvia"),
+                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="https://t.me/sylvia_super_bot"),
+                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/about_sylvia_chat"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="innexia_basichelp"),
@@ -471,12 +471,12 @@ def innexia_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="ᴋɪʟʟᴇʀ ᴋɪɴɢ", url="https://t.me/killer_KING_XD"),
+                    InlineKeyboardButton(text="ᴋɪʟʟᴇʀ ᴋɪɴɢ", url="https://t.me/killer_KING_X_D"),
                     InlineKeyboardButton(text="ᴋɪʟʟᴇʀ Qᴜᴇᴇɴ", url="https://t.me/killer_queen_x_d"),
                  ],
                  [
                     InlineKeyboardButton(text="ᴄʜᴀᴛ ɢʀᴏᴜᴘ", url="https://t.me/blinking_stars_op"),
-                    InlineKeyboardButton(text="ᴀʙᴏᴜᴛ ᴋɪʟʟᴇʀꜱ", url="https://t.me/ABOUT_KILLER_KING"),
+                    InlineKeyboardButton(text="ʟᴏᴠᴇ ɪꜱ ʟɪꜰᴇ", url="https://t.me/LOVE_IZ_LIFEE"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="innexia_basichelp"),
@@ -493,7 +493,7 @@ def Source_about_callback(update, context):
     if query.data == "source_":
         query.message.edit_text(
             text=""" Hi..😻 I'm *ꜱʏʟᴠɪᴀ*
-                 \nHere is the [🔥ᴏᴡɴᴇʀ🔥](https://t.me/killer_KING_XD) .""",
+                 \nHere is the [🔥ᴏᴡɴᴇʀ🔥](https://t.me/killer_KING_X_D) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -746,7 +746,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 2082587333 and DONATION_LINK:
+        if OWNER_ID != 2026859863 and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
                 "[here]({})".format(DONATION_LINK),
